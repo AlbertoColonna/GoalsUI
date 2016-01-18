@@ -1,0 +1,30 @@
+<mvc:View
+	height="100%"
+	controllerName="view.goalStart"
+	xmlns:core="sap.ui.core"  
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.suite.ui.commons"
+    xmlns:m="sap.m" >
+	
+	<GenericTile 
+		header="Simplified Goals"
+		size="L" 
+		frameType="OneByOne"
+		press="handleTilePress"
+		>
+		<tileContent>
+			<TileContent unit="" size="L" footer="Total {count>/count}">
+				<content>
+					<ComparisonChart size="S" scale="" width="100%" >
+				        <data>
+				        	<ComparisonData	title="Achieved" value="{count>/achieved}" color="Good"/>
+				        	<ComparisonData	title="On Track" value="{count>/ontrack}" color="Good"/>
+				        	<ComparisonData	title="Not on Track" value="{count>/offtarget}" color="Error"/>
+				        	<ComparisonData	title="No Longer Valid" value="{count>/nolongervalid}" color="Error"/>
+				        </data>
+			        </ComparisonChart>
+				</content>
+			</TileContent>
+		</tileContent>
+	</GenericTile>
+</mvc:View>

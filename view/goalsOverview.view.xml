@@ -1,0 +1,91 @@
+<core:View xmlns:core="sap.ui.core" 
+		xmlns:html="http://www.w3.org/1999/xhtml" 
+		xmlns:u="sap.ui.unified" 
+		xmlns:mvc="sap.ui.core.mvc" 
+		xmlns="sap.m" 
+		xmlns:sap.ui.layout="sap.ui.layout" 
+		xmlns:sap.ui.layout.form="sap.ui.layout.form" 
+		controllerName="view.goalsOverview"
+		xmlns:l="sap.ui.layout">
+	
+	<Page showSubHeader="false" title="Simplified Goals" titleLevel="Auto" >
+		
+		<headerContent>			
+		</headerContent>
+		
+		<content>
+			<Table id="__table0" items="{goals>/}" noDataText="There are no goals!" >
+				<columns>
+					<Column id="__column0" 
+							width="100%"
+							minScreenWidth="Tablet"
+							demandPopin="true">
+						<header>
+							<Label id="__label0" text="Goal / Task"/>
+						</header>
+					</Column>
+					<Column id="__column1" 
+							width="128px"
+							minScreenWidth="Tablet"
+							demandPopin="true">
+						<header>
+							<Label id="__label1" text="Start"/>
+						</header>
+					</Column>
+					<Column id="__column2" 
+							width="128px"
+							minScreenWidth="Tablet"
+							demandPopin="true">
+						<header>
+							<Label id="__label2" text="Due"/>
+						</header>
+					</Column>
+					<Column id="__column3" 
+							width="165px"
+							minScreenWidth="Tablet"
+							demandPopin="true">
+						<header>
+							<Label id="__label3" text="Status"/>
+						</header>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem id="colListItem">
+						<cells>
+							<TextArea id="goalInput" placeholder="Enter your goal here..." value="{goals>name}" valueState="{goals>valueStateName}" height="48px" width="100%" rows="{goals>rowCount}" />
+							<DatePicker id="startDatePicker" value="{goals>start}"  valueState="{goals>valueState}"  valueFormat="yyyy-MM-dd" displayFormat="yyyy-MM-dd"/>
+							<DatePicker id="dueDatePicker" value="{goals>due}" valueState="{goals>valueState}" valueFormat="yyyy-MM-dd" displayFormat="yyyy-MM-dd"/>
+							<Select id="statusSelect" selectedKey="{goals>state}"  >
+								<items>
+									<core:Item text="None" key="None" />
+							     	<core:Item text="Not on Track" key="Off Target"/>
+									<core:Item text="On Track" key="On Track" />
+									<core:Item text="Achieved" key="Achieved" />
+									<core:Item text="No Longer Valid" key="No Longer Valid" />
+								</items>
+							</Select>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+		
+		<footer>
+			<Toolbar width="100%" id="__toolbar0" active="false" design="Auto">
+			    <customData>
+			        <core:CustomData key="sap-ui-fastnavgroup" value="true" writeToDom="true" id="__data3"/>
+			    </customData>
+				<content>
+					<FlexBox width="100%" id="__box1" justifyContent="End">
+					    <items>
+							<Button text="Add" width="120px" id="__button0" press="onAdd" type="Emphasized" icon="sap-icon://add"/>
+					    	<Button text="Cancel" width="120px" id="__button2" press="onCancel" type="Reject" icon="sap-icon://sys-cancel-2" />
+					        <Button text="Save" width="120px" id="__button1" press="onSave" type="Accept" icon="sap-icon://save"/>
+					    </items>
+					</FlexBox>
+				</content>
+			</Toolbar>
+		</footer>
+		
+	</Page> 
+</core:View>

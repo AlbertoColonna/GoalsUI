@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Dialog
+		title="Are you sure you want to cancel?"
+		class="sapUiContentPadding" >
+		<HBox> 
+    	<!--	<Text  text="It looks like you have been editing something. " > </Text>  
+    		<Text  text="If you leave before saving, your changes will be lost." > </Text>-->
+    		<Text  text="Any changes you made will be lost." > </Text>
+    	</HBox> 
+		<content>
+			<SegmentedButton selectedButton="SBApproved">
+				<Button text="Yes" width="170px" id="__button11" press="onCancelDialog" type="Accept" icon="sap-icon://accept"/>
+				<Button text="No" width="170px" id="__button12" press="onCloseDialog" type="Accept" icon="sap-icon://sys-cancel-2" />
+			</SegmentedButton>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

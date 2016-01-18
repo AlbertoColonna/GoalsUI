@@ -1,0 +1,200 @@
+{
+  "run": [
+    {
+      "filePath": "/simpleGoals/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 4027643,
+        "displayName": "New Web Application 6"
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "goals",
+          "destinations": "goals"
+        }
+      ],
+      "_metadata": {
+        "id": 4812328,
+        "runnerId": "webapprunner",
+        "displayName": "Goals Management"
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01-2/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "goaldest",
+          "destinations": "goaldest"
+        }
+      ],
+      "_metadata": {
+        "id": 6074822,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 2",
+        "hasIssues": true
+      }
+    },
+    {
+      "filePath": "/sap.ui.core.sample.ThemeCustomClasses/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 1244729,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 4"
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01-7/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 1617654,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 11"
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01-6/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "goaldest",
+          "destinations": "goaldest"
+        }
+      ],
+      "_metadata": {
+        "id": 8036323,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 10"
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01-5/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "goaldest",
+          "destinations": "goaldest"
+        }
+      ],
+      "_metadata": {
+        "id": 3698151,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 9"
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01-4/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "goaldest",
+          "destinations": "goaldest"
+        }
+      ],
+      "_metadata": {
+        "id": 3565107,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 4",
+        "hasIssues": true
+      }
+    },
+    {
+      "filePath": "/goalsmgmtalpha01-3/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "goaldest",
+          "destinations": "goaldest"
+        }
+      ],
+      "_metadata": {
+        "id": 32233,
+        "runnerId": "webapprunner",
+        "displayName": "New Web Application 1"
+      }
+    }
+  ]
+}

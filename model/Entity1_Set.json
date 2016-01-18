@@ -1,0 +1,19 @@
+[{
+	"goal": "goal 1",
+	"start": "01.12.2015",
+	"due": "01.12.2016",
+	"status": "",
+	"__metadata": {
+		"uri": "Entity1_Set('goal 1')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"goal": "goal 2",
+	"start": "01.12.2015",
+	"due": "01.06.2016",
+	"status": "",
+	"__metadata": {
+		"uri": "Entity1_Set('goal 2')",
+		"type": "Demo.Entity1"
+	}
+}]

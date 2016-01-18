@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m,sap.suite.ui.commons"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-resourceroots='{"view": "./"}'
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script>
+				sap.ui.localResources("view");
+				var app = new sap.m.App({initialPage:"goalStart"});
+
+				var page = sap.ui.view({
+					id:"goalStart", 
+					viewName:"view.goalStart", 
+					type:sap.ui.core.mvc.ViewType.XML});
+
+				var page2 = sap.ui.view({
+					id:"goalsOverview", 
+					viewName:"view.goalsOverview", 
+					type:sap.ui.core.mvc.ViewType.XML});	
+			
+				// add both pages to the App
+				app.addPage(page).addPage(page2);
+				app.placeAt("content");
+		</script>
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

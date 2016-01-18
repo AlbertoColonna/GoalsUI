@@ -1,0 +1,34 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 05 Aug 2015 16:17:03 GMT"
+    },
+    {
+      "templateId": "wysiwygtemplate.quickStart",
+      "templateVersion": "0.0.0",
+      "dateTimeStamp": "Tue, 15 Dec 2015 14:59:00 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "dataBinding": {},
+  "mockpreview": {
+    "loadJSONFiles": true,
+    "mockUri": "",
+    "metadataFilePath": "model/metadata.xml",
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "hcpdeploy": {
+    "account": "a2ae72c92",
+    "name": "simplegoals",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  }
+}

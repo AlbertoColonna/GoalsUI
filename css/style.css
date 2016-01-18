@@ -1,0 +1,29 @@
+.H2 {
+	padding: 0rem 1rem 0 1rem;
+	font-size: 1.5em;
+}
+
+.H1 {
+	font-size: 3em;
+}
+
+.myText {
+	background-color:red;
+	color:red;
+}
+
+.bgRed {
+	background-color:red;
+}
+
+.bgGreen {
+	background-color:green;
+}
+
+.bgBlue {
+	background-color:blue;
+}
+
+.myText2 {
+	vertical-align: 2%;;
+}
